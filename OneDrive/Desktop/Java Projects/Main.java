@@ -30,7 +30,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String quit = "quit";
 
-        while (true) {
+        while (true) { //if true
             try {
                 System.out.print("Початкове значення (-100 до 100): ");
                 double start = Double.parseDouble(sc.nextLine());
